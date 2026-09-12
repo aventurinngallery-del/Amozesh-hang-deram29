@@ -18,7 +18,7 @@
 
 # Room generates direct references to the database and entity classes. Kotlin
 # domain and audio classes are not reflected over and should remain shrinkable.
--keep class com.example.data.local.AppDatabase { *; }
+-keep class com.sharn.handpan.data.local.AppDatabase { *; }
 -keep @androidx.room.Entity class * { *; }
 -dontwarn androidx.room.paging.**
 
