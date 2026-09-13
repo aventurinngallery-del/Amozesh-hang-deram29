@@ -633,7 +633,7 @@ fun HomeScreen(
 }
 
 @Composable
-private fun RecommendationCard(
+internal fun RecommendationCard(
     pattern: HandpanPattern,
     recommendation: com.sharn.handpan.model.LearningRecommendation,
     onStart: () -> Unit
